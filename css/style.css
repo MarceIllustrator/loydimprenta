@@ -25,20 +25,20 @@ body {
       justify-content: space-between;
       align-items: center;
     }
-    nav ul {
-      display: flex;
-      align-items: center;
+    .navbar-expand-lg {
+      width: 100%;
     }
-    nav ul li {
-      color: #ffffff;
-      margin: 15px;
-      list-style-type: none;
+    .navbar-collapse {
+      justify-content: end;
     }
-    nav ul li a {
-      color: #ffffff;
-      font-size: 110%;
-      text-decoration: none;
+    .nav-item {
+      padding: 0px 20px;
+      text-align: end;
     }
+    .nav-link {
+      font-size: 120%;
+    }
+
 
 /* FOOTER */
     footer {
@@ -134,12 +134,16 @@ body {
       padding: 20px;
     }
     .cards__title {
-      font-size: 200%;
-      font-weight: bold;
       text-align: center;
       color: #ffffff;
       background-color: #6D3E8C;
       padding: 40px 0px 15px 0px;
+    }
+    .cards__title h3 {
+      font-size: 200%;
+      text-align: center;
+      font-weight: bold;
+      color: #ffffff;
     }
     .card__body {
       width: 27%;
@@ -153,7 +157,7 @@ body {
       object-fit: cover;
     }
     .card__body h4 a {
-      font-size: 150%;
+      font-size: 120%;
       text-align: center;
       font-weight: bold;
       color: #ffffff;
