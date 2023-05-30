@@ -47,33 +47,57 @@
         <main>
 
             <section class="contacto__principal">
-                    <h1>¡Hacé tu pedido!</h1>
-                    <div class="contacto__principal__content">
-                        <p>Para que tengas una mejor experiencia con nosotros y podamos ayudarte a resolver tus dudas, te recomendamos que nos contactes a traves de nuestro correo electrónico o nuestras redes sociales. Te armamos tu presupuesto sin cargo ni compromiso, y si aceptas, en las proximas 24hs estamos terminando tu pedido.
+              <h1>¡Hacé tu pedido!</h1>
+              <div class="contacto__principal__content">
+                  <p>Para que tengas una mejor experiencia con nosotros y podamos ayudarte a resolver tus dudas, te recomendamos que nos contactes a traves de nuestro correo electrónico o nuestras redes sociales. Te armamos tu presupuesto sin cargo ni compromiso, y si aceptas, en las proximas 24hs estamos terminando tu pedido.
+              </div>
+              <h2>Contactanos</h2>
+              <div class="container_form">
+                <form class="row">
+                  <div class="col-12">
+                    <label for="nameinput" class="form-label">Nombre y Apellido</label>
+                    <input type="text" class="form-control" id="nameinput" placeholder="Nombre y Apellido">
+                  </div>
+                  <div class="col-6">
+                    <label for="emailinput" class="form-label">Email</label>
+                    <input type="email" class="form-control" id="emailinput" placeholder="Email">
+                  </div>
+                  <div class="col-6">
+                    <label for="numberinput" class="form-label">Celular</label>
+                    <input type="number" class="form-control" id="numberinput" placeholder="Numero de celular">
+                  </div>
+                  <div class="col-12">
+                    <label for="consulinput" class="form-label">Descripción</label>
+                    <input type="text" class="form-control" id="consulinput" placeholder="Escribe tu consulta aquí">
+                  </div>
+                  <div class="col-6">
+                    <label for="directioninput" class="form-label">Dirección</label>
+                    <input type="text" class="form-control" id="directioninput" placeholder="Calle y altura">
+                  </div>
+                  <div class="col-3">
+                    <label for="localinput" class="form-label">Localidad</label>
+                    <input type="text" class="form-control" id="localinput" placeholder="Localidad">
+                  </div>
+                  <div class="col-3">
+                    <label for="cpinput" class="form-label">C.P.</label>
+                    <input type="number" class="form-control" id="cpinput" placeholder="CP">
+                  </div>
+                  <div class="col-12">
+                    <div class="form-check">
+                      <label for="checkTerms" class="form-check-label">Acepto los terminos y condiciones</label>
+                      <input type="checkbox" id="checkTerms" class="form-check-input">
                     </div>
-                    <form class="contacto__principal__form">
-                        <fieldset>
-                            <legend>Datos de contacto</legend>
-                            <div class="Campo">
-                                <label for="nombre">Nombre y Apellido</label>
-                                <input type="text" name="nombre">
-                            </div>
-                            <div class="Campo">
-                                <label for="mail">Correo electrónico</label>
-                                <input type="text" name="mail">
-                            </div>
-                            <div class="Campo">
-                                <label for="telefono">Teléfono/Celular</label>
-                                <input type="text" name="telefono">
-                            </div>
-                            <div class="Campo_grande">
-                                <label for="mensaje">Escribe acá tu consulta</label>
-                                <input type="text" name="mensaje">
-                            </div>
-                            <input type="reset" value="Borrar datos">
-                            <input class="e" type="submit" value="Enviar">
-                        </fieldset>
-                    </form>
+                  </div>
+                  <div class="col-12">
+                    <div class="form-check">
+                      <label for="checkNotif" class="form-check-label">Quiero recibir correos sobre ofertas y promociones</label>
+                      <input type="checkbox" id="checkNotif" class="form-check-input">
+                    </div>
+                  </div>
+                  <div class="col-12">
+                    <button type="submit" class="btn btn-primary">Enviar</button>
+                </form>
+              </div>
             </section>
             <section class="contacto__sucursal">
                 <div class="contacto__sucursal__content">
