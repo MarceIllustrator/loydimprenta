@@ -1,0 +1,27 @@
+/* FOOTER */
+footer {
+    display: flex;
+    justify-content: space-between;
+    background-color: #404040;
+    padding: 60px; 
+  }
+  footer ul {
+    list-style-type: none;
+    text-align: left;
+    display: inline;
+  }
+  footer ul li {
+    color: #909090;
+    margin: 15px;
+    font-weight: bold;
+    display: inline;
+  }
+  footer ul li a {
+    color: #909090;
+    text-decoration: none;
+  }
+  footer p {
+    color: #757575;
+    text-align: right;
+    text-decoration: none;
+  }
