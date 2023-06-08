@@ -367,6 +367,7 @@ body {
     }
     .row {
       justify-content: center;
+      width: 100%;
     }
     .form-label {
       padding-top: 20px;
