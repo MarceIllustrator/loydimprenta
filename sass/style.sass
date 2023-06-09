@@ -1,0 +1,540 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+  background-color: #ffffff;
+}
+
+/* MENÚ_NAV */ 
+    header {
+      top: 0;
+      left: 0;
+      z-index: 2;
+    }
+    .menu {
+      padding: 15px 40px;
+      width: 100%;
+      background-color: #6D3E8C;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    .navbar-expand-lg {
+      width: 100%;
+    }
+    .navbar-collapse {
+      justify-content: end;
+    }
+    .nav-item {
+      padding: 0px 20px;
+      text-align: end;
+    }
+    .nav-link {
+      font-size: 120%;
+    }
+
+
+/* FOOTER */
+    footer {
+      display: flex;
+      justify-content: space-between;
+      background-color: #404040;
+      padding: 60px; 
+    }
+    footer ul {
+      list-style-type: none;
+      text-align: left;
+      display: inline;
+    }
+    footer ul li {
+      color: #909090;
+      margin: 15px;
+      font-weight: bold;
+      display: inline;
+    }
+    footer ul li a {
+      color: #909090;
+      text-decoration: none;
+    }
+    footer p {
+      color: #757575;
+      text-align: right;
+      text-decoration: none;
+    }
+
+/* PARRAFOS */
+    p {
+      font-size: 100%;
+    }
+
+/* INDEX.HTML */
+
+  /* MAIN_INDEX */
+
+    .article_container {
+      display: flex;
+      width: 100%;
+    }
+    .article_container_main {
+      width: 50%;
+      padding: 50px;
+      text-align: center;
+    }
+    .article_container h1 {
+      font-size: 300%;
+      font-weight: bold;
+      text-align: center;
+      padding-bottom: 20px;
+    }
+    .article_container_ph {
+      width: 50%;
+      padding: 50px;
+    }
+    .article_container_ph img {
+      width: 100%;
+      height: 354px;
+      object-fit: cover;
+    }
+    .article_historia {
+      display: flex;
+      width: 100%;
+    }
+    .article_historia_content {
+      padding: 40px;
+      width: 40%;
+      text-align: start;
+    }
+    .article_historia h2 {
+      font-size: 200%;
+      font-weight: bold;
+      text-align: start;
+    }
+    .imagenes_h {
+      display: flex;
+      flex-direction: column;
+      width: 60%;
+      padding: 40px;
+    }
+    .imagenes_h img {
+      height: 250px;
+      object-fit: cover;
+      padding: 15px;
+    }
+    .cards-container {
+      display: flex;
+      justify-content: space-around;
+      background-color: #6D3E8C;
+      width: 100%;
+      padding: 20px 20px 50px 20px;
+    }
+    .cards__title {
+      text-align: center;
+      color: #ffffff;
+      background-color: #6D3E8C;
+      padding: 40px 0px 15px 0px;
+    }
+    .card {
+      width: 25%;
+    }
+    .cards__title h3 {
+      font-size: 250%;
+      font-weight: bold;
+    }
+    .card-title {
+      font-size: 150%;
+      text-align: center;
+      font-weight: bold;
+      color: #404040;
+      text-decoration: none;
+      padding: 10px 0px;
+    }
+    .card-text {
+      text-align: center;
+    }
+
+/* FOTOGRAFIA.HTML */
+
+  /* MAIN_FOTOGRAFIA */
+
+    .fotografia__principal {
+      background-color: #ffffff;
+      width: 100%;
+      display: inline-block;
+    }
+    .fotografia__principal img {
+      width: 100%;
+      height: 400px;
+      object-fit: cover;
+    }
+    .fotografia__content {
+      padding: 60px 50px 0px 50px;
+      width: 100%;
+      vertical-align: top;
+      text-align: center;
+    }
+    .fotografia__content h1 {
+      margin-bottom: 50px;
+      font-size: 400%;
+      font-weight: bold;
+    }
+    .cards__fotografia {
+      display: flex;
+      text-align: center;
+    }
+    .card__fotografia__body {
+      padding: 60px 40px;
+      width: 50%;
+      text-align: center;
+      display: inline-block;
+    }
+    .card__fotografia__body img {
+      width: 100%;
+      height: 400px;
+      object-fit: cover;
+      padding-top: 20px;
+    }
+    .card__fotografia__body h4 {
+      font-size: 200%;
+      font-weight: bold;
+      padding-bottom: 20px;
+    }
+
+/* CALCOSYVINILOS.HTML */
+
+  /* MAIN_CALCOSYVINILOS */
+
+    .cyv__principal {
+      background-color: #ffffff;
+      width: 100%;
+    }
+    .cyv__principal img {
+      width: 100%;
+      height: 400px;
+      object-fit: cover;
+    }
+    .cyv__content {
+      padding: 50px;
+      width: 100%;
+      vertical-align: top;
+      text-align: center;
+    }
+    .cyv__content h1 {
+      margin-bottom: 50px;
+      font-size: 400%;
+      font-weight: bold;
+    }
+    .cyv__calco {
+      display: flex;
+      width: 100%;
+    }
+    .cyv__product__calco {
+      width: 50%;
+      padding: 50px;
+      text-align: end;
+    }
+    .calco_img {
+      width: 50%;
+      padding: 50px;
+    }
+    .calco_img img {
+      width: 100%;
+      object-fit: cover;
+      height: 370px;
+    }
+    .cyv__vinilo {
+      display: flex;
+      width: 100%;
+    }
+    .cyv__product__vinilo {
+      width: 50%;
+      padding: 50px;
+    }
+    .vinilo_img {
+      width: 50%;
+      padding: 50px;
+    }
+    .vinilo_img img {
+      width: 100%;
+      object-fit: cover;
+      height: 300px;
+    }
+    .cyv__product__vinilo h4 {
+      font-size: 200%;
+      font-weight: bold;
+    }
+    .cyv__product__calco h4 {
+      font-size: 200%;
+      font-weight: bold;
+    }
+
+/* IMPRESION.HTML */
+
+  /* MAIN_IMPRESION */
+
+    .imp__principal {
+      background-color: #ffffff;
+      width: 100%;
+    }
+    .imp__principal img {
+      width: 100%;
+      height: 400px;
+      object-fit: cover;
+    }
+    .imp__content {
+      padding: 50px;
+      width: 100%;
+      vertical-align: top;
+      text-align: center;
+    }
+    .imp__content h1 {
+      margin-bottom: 50px;
+      font-size: 400%;
+      font-weight: bold;
+    }
+    .cards__imp {
+      display: flex;
+      flex-wrap: wrap;
+      background-color: #909090;
+      padding: 30px 0px;
+    }
+    .card__imp__body {
+      padding: 30px 60px;
+      width: 50%;
+      text-align: center;
+    }
+    .card__imp__body ul li {
+      margin: 10px 0px;
+      text-align: center;
+      list-style-type: none;
+      font-weight: bold;
+    }
+    .card__imp__body h4 {
+      font-size: 250%;
+      font-weight: bold;
+    }
+    .cards__imp2 {
+      text-align: center;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-around;
+    }
+    .card__imp2__body {
+      padding: 60px 30px;
+      width: 27%;
+      text-align: center;
+    }
+    .card__imp2__body img {
+      width: 100%;
+      object-fit: cover;
+    }
+    .card__imp2__body h4 {
+      font-size: 400%;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    .card__imp2__title {
+      width: 100%;
+    }
+    .card__imp2__title h3 {
+      margin-top: 100px;
+      font-size: 300%;
+      font-weight: bold;
+    }
+
+/* CONTACTO.HTML */
+
+  /* MAIN_CONTACTO */
+
+    .contacto__principal {
+      width: 100%;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+    .contacto__principal h2 {
+      font-size: 250%;
+      font-weight: bold;
+    }
+    .container_form {
+      display: flex;
+      width: 100%;
+    }
+    .row {
+      justify-content: center;
+      width: 100%;
+    }
+    .form-label {
+      padding-top: 20px;
+    }
+    .form-check {
+      padding-top: 20px;
+    }
+    .btn-primary {
+      margin-top: 20px;
+      background-color: #6D3E8C;
+      border: none;
+    }
+    .col-12 {
+      width: 80%;
+    }
+    .col-6 {
+      width: 40%;
+    }
+    .col-3 {
+      width: 20%;
+    }
+    .contacto__principal__content {
+      padding: 65px;
+      width: 100%;
+      text-align: center;
+    }
+    .contacto__principal h1 {
+      width: 100%;
+      font-size: 350%;
+      font-weight: bold;
+      text-align: center;
+      padding-top: 50px;
+    }
+    .contacto__sucursal {
+      background-color: #ffffff;
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+    }
+    .contacto__sucursal iframe {
+      width: 100%;
+      height: 350px;
+      padding: 0px 50px 100px 50px;
+    }
+    .contacto__sucursal__content {
+      padding: 50px;
+      width: 100%;
+      text-align: center;
+    }
+    .contacto__sucursal__content h4 {
+      font-size: 250%;
+      font-weight: bold;
+      text-align: center;
+    }
+
+/* MEDIA QUERIES */
+
+  /* Tablet */
+  @media only screen and (max-width: 768px){}
+
+  /* Mobile */
+  @media only screen and (max-width: 576px){
+    /* esilos generales */
+    main {
+      width: 100%;
+    }
+    .menu {
+      flex-direction: column;
+    }
+    .menu nav ul {
+      font-size: 77%;
+    }
+    footer {
+      flex-direction: column;
+      align-items: center;
+    }
+    footer p {
+      padding-top: 20px;
+    }
+  /* index */
+    .article_container {
+      flex-direction: column;
+      text-align: center;
+      width: 100%;
+    }
+    .article_container aside {
+      width: 100%;
+    }
+    .article_historia {
+      flex-direction: column-reverse;
+      text-align: center;
+    }
+    .article_historia aside {
+      width: 100%;
+      text-align: center;
+    }
+    .cards-container {
+      flex-direction: column;
+      width: 100%;
+      align-items: center;
+    }
+    .card {
+      width: 80%;
+      margin: 20px 0px;
+    }
+    .card-img-top {
+      height: 250px;
+      object-fit: cover;
+    }
+  /* fotografia */
+    .fotografia__principal img {
+      height: 225px;
+    }
+    .cards__fotografia {
+      display: flex;
+      flex-direction: column;
+    }
+    .card__fotografia__body {
+      padding: 60px 40px 0px 40px;
+      width: 100%;
+    }
+    /* calcosyvinilos */
+    .cyv__principal img {
+      height: 225px;
+    }
+    .cyv__calco {
+      flex-direction: column;
+    }
+    .cyv__product__calco {
+      width: 100%;
+      text-align: center;
+    }
+    .calco_img {
+      width: 100%;
+    }
+    .calco_img img {
+      width: 100%;
+      object-fit: cover;
+      height: 370px;
+    }
+    .cyv__vinilo {
+      flex-direction: column-reverse;
+    }
+    .cyv__product__vinilo {
+      width: 100%;
+      text-align: center;
+    }
+    .vinilo_img {
+      width: 100%;
+    }
+    .vinilo_img img {
+      width: 100%;
+      object-fit: cover;
+      height: 370px;
+    }
+  /* impresión */
+    .imp__principal img {
+      height: 225px;
+    }
+    .card__imp__body {
+      width: 100%;
+    }
+    .card__imp2__body {
+      width: 100%;
+    }
+  /* contacto */
+    .Campo {
+      width: 100%;
+    }
+  }
