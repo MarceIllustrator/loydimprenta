@@ -1,0 +1,31 @@
+/* FOOTER */
+footer {
+    display: flex;
+    justify-content: space-between;
+    background-color: #404040;
+    padding: 60px; 
+  
+      ul {
+      list-style-type: none;
+      text-align: left;
+      display: inline;
+      
+          li {
+          color: #909090;
+          margin: 15px;
+          font-weight: bold;
+          display: inline;
+          
+              a {
+              color: #909090;
+              text-decoration: none;
+              }
+          }
+      }
+      
+      p {
+      color: #757575;
+      text-align: right;
+      text-decoration: none;
+      }
+  }

@@ -1,0 +1,53 @@
+/* FOTOGRAFIA.HTML */
+
+  /* MAIN_FOTOGRAFIA */
+
+  .fotografia__principal {
+    background-color: #ffffff;
+    width: 100%;
+    display: inline-block;
+
+    img {
+      width: 100%;
+      height: 400px;
+      object-fit: cover;
+    }
+
+    .fotografia__content {
+      padding: 60px 50px 0px 50px;
+      width: 100%;
+      vertical-align: top;
+      text-align: center;
+    
+      h1 {
+        margin-bottom: 50px;
+        font-size: 400%;
+        font-weight: bold;
+      }
+    }
+  }
+
+  .cards__fotografia {
+    display: flex;
+    text-align: center;
+
+    .card__fotografia__body {
+      padding: 60px 40px;
+      width: 50%;
+      text-align: center;
+      display: inline-block;
+    
+      h4 {
+        font-size: 200%;
+        font-weight: bold;
+        padding-bottom: 20px;
+      }
+
+      img {
+        width: 100%;
+        height: 400px;
+        object-fit: cover;
+        padding-top: 20px;
+      }
+    }
+  }

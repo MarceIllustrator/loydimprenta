@@ -1,0 +1,85 @@
+/* IMPRESION.HTML */
+
+  /* MAIN_IMPRESION */
+
+  .imp__principal {
+    background-color: #ffffff;
+    width: 100%;
+  
+    img {
+      width: 100%;
+      height: 400px;
+      object-fit: cover;
+    }
+    .imp__content {
+      padding: 50px;
+      width: 100%;
+      vertical-align: top;
+      text-align: center;
+    
+      h1 {
+        margin-bottom: 50px;
+        font-size: 400%;
+        font-weight: bold;
+      }
+    }
+  }
+  .cards__imp {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #909090;
+    padding: 30px 0px;
+  
+    .card__imp__body {
+      padding: 30px 60px;
+      width: 50%;
+      text-align: center;
+
+      h4 {
+        font-size: 250%;
+        font-weight: bold;
+      }
+    
+      ul {
+        li {
+        margin: 10px 0px;
+        text-align: center;
+        list-style-type: none;
+        font-weight: bold;
+        }
+      }
+    }
+  }
+
+  .cards__imp2 {
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  
+    .card__imp2__title {
+      width: 100%;
+    
+      h3 {
+        margin-top: 100px;
+        font-size: 300%;
+        font-weight: bold;
+      }
+    }
+    .card__imp2__body {
+      padding: 60px 30px;
+      width: 27%;
+      text-align: center;
+    
+      img {
+        width: 100%;
+        object-fit: cover;
+      }
+
+      h4 {
+        font-size: 400%;
+        text-decoration: none;
+        font-weight: bold;
+      }
+    }
+  }
