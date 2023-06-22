@@ -1,7 +1,7 @@
 /* FOOTER */
 footer {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     background-color: #404040;
     padding: 60px; 
   
@@ -9,6 +9,7 @@ footer {
       list-style-type: none;
       text-align: left;
       display: inline;
+      padding: 0px;
       
           li {
           color: #909090;

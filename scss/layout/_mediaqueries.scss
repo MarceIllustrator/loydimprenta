@@ -24,86 +24,140 @@
       flex-direction: column;
       text-align: center;
       width: 100%;
-    }
-    .article_container aside {
-      width: 100%;
+    
+      &_main {
+        width: 100%;
+      }
+      &_ph {
+        width: 100%;
+      }
     }
     .article_historia {
       flex-direction: column-reverse;
       text-align: center;
-    }
-    .article_historia aside {
       width: 100%;
-      text-align: center;
+      
+      .imagenes_h {
+        width: 100%;
+      }
+      &_content {
+        width: 100%;
+        text-align: center;
+      }
     }
     .cards-container {
       flex-direction: column;
       width: 100%;
       align-items: center;
-    }
-    .card {
-      width: 80%;
-      margin: 20px 0px;
-    }
-    .card-img-top {
-      height: 250px;
-      object-fit: cover;
+    
+      .card {
+        width: 80%;
+        margin: 20px 0px;
+      }
+
+      .card-img-top {
+        height: 250px;
+        object-fit: cover;
+      }
     }
   /* fotografia */
-    .fotografia__principal img {
+    .fotografia__principal {
+      width: 100%;
+      
+      img {
       height: 225px;
+      width: 100%;
+      }
     }
     .cards__fotografia {
       display: flex;
       flex-direction: column;
-    }
-    .card__fotografia__body {
-      padding: 60px 40px 0px 40px;
       width: 100%;
+    
+      .card__fotografia__body {
+        padding: 60px 40px 30px 40px;
+        width: 100%;
+      }
     }
     /* calcosyvinilos */
-    .cyv__principal img {
+    .cyv__principal {
+      width: 100%;
+      
+      img {
       height: 225px;
+      width: 100%;
+      }
     }
+
     .cyv__calco {
       flex-direction: column;
-    }
-    .cyv__product__calco {
       width: 100%;
-      text-align: center;
+    
+      .cyv__product__calco {
+        width: 100%;
+        text-align: center;
+      }
+
+      .calco_img {
+        width: 100%;
+
+        img {
+          width: 100%;
+          object-fit: cover;
+          height: 370px;
+        }
+      }
     }
-    .calco_img {
-      width: 100%;
-    }
-    .calco_img img {
-      width: 100%;
-      object-fit: cover;
-      height: 370px;
-    }
+
     .cyv__vinilo {
       flex-direction: column-reverse;
-    }
-    .cyv__product__vinilo {
       width: 100%;
-      text-align: center;
+    
+      .vinilo_img {
+        width: 100%;
+
+        img {
+          width: 100%;
+          object-fit: cover;
+          height: 370px;
+        }
+      }
+
+      .cyv__product__vinilo {
+        width: 100%;
+        text-align: center;
+      }
     }
-    .vinilo_img {
-      width: 100%;
-    }
-    .vinilo_img img {
-      width: 100%;
-      object-fit: cover;
-      height: 370px;
-    }
+
   /* impresión */
-    .imp__principal img {
+
+    .imp__principal {
+      width: 100%;
+      
+      img {
       height: 225px;
-    }
-    .card__imp__body {
       width: 100%;
+      }
     }
-    .card__imp2__body {
+
+    .cards__imp {
       width: 100%;
+
+      .card__imp__body {
+        width: 100%;
+      }
+    }
+
+    .cards__imp2 {
+      width: 100%;
+      
+      .card__imp2__body {
+        width: 100%;
+
+        img {
+          width: 70%;
+        }
+      }
     }
   /* contacto */
     .Campo {
