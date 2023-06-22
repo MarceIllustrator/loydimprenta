@@ -62,7 +62,7 @@
   .cards__title {
     text-align: center;
     color: #ffffff;
-    background-color: #6D3E8C;
+    background-color: $main_color;
     padding: 40px 0px 15px 0px;
   
     h3 {
@@ -73,7 +73,7 @@
   .cards-container {
     display: flex;
     justify-content: space-around;
-    background-color: #6D3E8C;
+    background-color: $main_color;
     width: 100%;
     padding: 20px 20px 50px 20px;
 
