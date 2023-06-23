@@ -374,6 +374,7 @@ main {
 /* MAIN_INDEX */
 main {
   overflow: hidden;
+  width: 100%;
 }
 
 .article_container {
