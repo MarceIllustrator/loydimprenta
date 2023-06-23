@@ -5,8 +5,14 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- favicon -->
         <link rel="icon" type="image/png" href="../images/Loyd_logo_fav.png">
+        <!-- cdn bootstrap estilos e iconos -->
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+        <!-- cdn aos animate -->
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+        <!-- css -->
         <link rel="stylesheet" href="../css/style.css">
         <title>LOYD - Fotografía</title>
     </head>
@@ -48,8 +54,8 @@
 
         <main>
             <section class="fotografia__principal">
-                <img src="../images/img_fotografia_principal.jpeg" alt="Fotos de fondo">
-                <div class="fotografia__content">
+                <img src="../images/img_fotografia_principal.jpeg" alt="Fotos de fondo" data-aos="flip-down">
+                <div class="fotografia__content" data-aos="zoom-out">
                     <h1>Fotografía</h1>
                     <p>A lo largo del tiempo, la fotografía ha tomado distintos roles dentro de la sociedad, pero en todo momento se mantuvo la tradición de atesorar las imágenes como recuerdos familiares, eventuales, históricos, etc.
                         Actualmente nos enfocamos en la fotografía como arte, pero nuestros clientes siguen guardando sus recuerdos en papel. Por eso te ofrecemos distintas posibilidades para conservar tus imagenes en la mejor calidad posible y asesoramiento sobre como conservarlas de la mejor manera para expandir la vida de tus recuerdos sin perder detalles.
@@ -57,12 +63,12 @@
                 </div>
             </section>
             <section class="cards__fotografia">
-                <div class="card__fotografia__body">
+                <div class="card__fotografia__body" data-aos="fade-right">
                     <h4>FOTOS POLAROID</h4>
                     <p>Las polaroid son fotografias de estilo "instantánea" que conservan los bordes de dicho estilo para aparentar como si fuesen tomadas en el momento. Su particularidad es que acompaña muy bien cuanto llega la hora de hacer un presente o, si preferís hacer un mural de momentos, te van a ayudar mucho para traerlos a la realidad.</p>
                     <img src="../images/img_polaroid_ph.jpeg" alt="Fotos Polaroid">
                 </div>
-                <div class="card__fotografia__body">
+                <div class="card__fotografia__body" data-aos="fade-left">
                     <h4>FOTOS TRADICIONALES</h4>
                     <p>Por su parte, las fotografías tradicionales son las clásicas que hace años atrás se hacían revelar a traves de un rollo de negtivos y en Loyd te traemos la posibilidad de imprimir tus imágenes digitales (tomadas con cualquier dispositivo) en papel conservando todos los detalles y procurando su máxima durabilidad en el tiempo.</p>
                     <img src="../images/img_tradicionales_ph.jpeg" alt="Fotos Tradicionales">
@@ -72,15 +78,21 @@
 
         <footer>
             <nav>
-                <ul>
-                    <li><a href="https://wa.link/0nkrcs" target="_blank">Whatsapp</a></li>
-                    <li><a href="https://www.instagram.com/loyd_dei/" target="_blank">Instagram</a></li>
-                    <li><a href="https://www.facebook.com/profile.php?id=100067657323812" target="_blank">Facebook</a></li>
-                </ul>
+              <ul>
+                <li><a href="https://wa.link/0nkrcs" target="_blank"><i class="bi bi-whatsapp"></i></a></li>
+                <li><a href="https://www.instagram.com/loyd_dei/" target="_blank"><i class="bi bi-instagram"></i></a></li>
+                <li><a href="https://www.facebook.com/profile.php?id=100067657323812" target="_blank"><i class="bi bi-facebook"></i></a></li>
+            </ul>
             </nav>
             <p>© LoydStudio  |  By MarceAlvarez 2023.</p>
         </footer>
+        <!-- cdn bootstrap estilos -->
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+        <!-- cdn aos animate -->
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+        <script>
+          AOS.init();
+        </script>
     </body>
 
 </html>

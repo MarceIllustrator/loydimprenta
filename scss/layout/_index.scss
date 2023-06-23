@@ -79,6 +79,11 @@
 
     .card {
       width: 25%;
+      transition: 0.3s;
+
+      &:hover {
+        transform: scale(110%)
+      }
 
       &-title {
         font-size: 150%;

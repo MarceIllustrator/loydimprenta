@@ -2,12 +2,18 @@
 <html lang="es">
         
     <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="icon" type="image/png" href="./images/Loyd_logo_fav.png">
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
-        <link rel="stylesheet" href="css/style.css">
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <!-- favicon -->
+      <link rel="icon" type="image/png" href="./images/Loyd_logo_fav.png">
+      <!-- cdn bootstrap estilos e iconos -->
+      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+      <!-- cdn aos animate -->
+      <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+      <!-- css -->
+      <link rel="stylesheet" href="./css/style.css">
         <title>Loyd Studio | Inicio </title>
     </head>
 
@@ -47,22 +53,22 @@
         
         <main>
 
-            <section class="article_container">
-                <aside class= "article_container_main">
+            <section class="article_container" data-aos="zoom-out">
+                <aside class= "article_container_main" data-aos="flip-left">
                     <h1>¡Bienvenid@!</h1>
                     <p>Loyd imprenta es un espacio donde haremos volar tu imaginación, te acompañamos desde el minuto cero en tus proyectos de presentación para que te sientas segur@ en todo momento y tomes la mejor decición al momento de elegir un papel. Contamos con más de 10 años de experiencia en el rubro y de a pequeños pasos fuimos creciendo y hoy estamos a la disponibilidad de toda persona que nos necesite. Nuestro equipo cuenta con personal capacitado para atender, manipular maquinas y asesorarte; dentro de ellos, diseñadores, secretarios, técnicos y especialistas en papeles.
                 </aside>
-                <aside class= "article_container_ph">
+                <aside class= "article_container_ph" data-aos="flip-right">
                     <img src="./images/img_index_principal.jpg" alt="Frente del local comercial">
                 </aside>
             </section>
             <section class="article_historia">
-                <aside class="imagenes_h">
+                <aside class="imagenes_h" data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine">>
                     <img src="./images/img_historia_inicio1.jpeg" alt="Comienzos de Loyd compras">
                     <img src="./images/img_historia_inicio2.jpeg" alt="Comienzos de Loyd colocacion de vinilo">
                     <img src="./images/img_historia_inicio3.jpeg" alt="Comienzos de Loyd agenda de pedidos">
                 </aside>
-                <aside class="article_historia_content">
+                <aside class="article_historia_content" data-aos="zoom-out">
                     <h2>Un poco de nuestra historia</h2>
                     <p>Lo que hoy conocemos como Loyd, nace aproximadamente en el año 2012 como un emprendimiento de stickers par apersonalizar telefonos celulares, utiles escolares, etc., y era conocido como "Stickers Boomb". Cada tanto se tomaba algún pedido por semana y se trabajaba dentro de una habitación donde se encontraba la computadora familiar y la impresora hogareña. Poco tiempo después se compra una impresora más por error y se comienza a producir trabajos un poco más grandes.
                     <p>Cada tanto y dependiendo de las tecnologías que iban surgiendo, se fueron comprando y probando distintos tipos de papeles, en su mayoria no funcionaron o dieron malos resultados, pero lo que nos dejó fué la experiencia que hoy tenemos y sabemos como evitarte esos tropiezos.
@@ -104,14 +110,20 @@
         <footer>
             <nav>
                 <ul>
-                    <li><a href="https://wa.link/0nkrcs" target="_blank">Whatsapp</a></li>
-                    <li><a href="https://www.instagram.com/loyd_dei/" target="_blank">Instagram</a></li>
-                    <li><a href="https://www.facebook.com/profile.php?id=100067657323812" target="_blank">Facebook</a></li>
+                    <li><a href="https://wa.link/0nkrcs" target="_blank"><i class="bi bi-whatsapp"></i></a></li>
+                    <li><a href="https://www.instagram.com/loyd_dei/" target="_blank"><i class="bi bi-instagram"></i></a></li>
+                    <li><a href="https://www.facebook.com/profile.php?id=100067657323812" target="_blank"><i class="bi bi-facebook"></i></a></li>
                 </ul>
             </nav>
             <p>© LoydStudio  |  By MarceAlvarez 2023.</p>
-        </footer>
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
-    </body>
+          </footer>
+          <!-- cdn bootstrap estilos -->
+          <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+          <!-- cdn aos animate -->
+          <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+          <script>
+            AOS.init();
+          </script>
+      </body>
 
 </html>

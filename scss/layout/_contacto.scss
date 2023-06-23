@@ -53,6 +53,9 @@
           margin-top: 20px;
           background-color: $main_color;
           border: none;
+          &:hover {
+            background-color: #3e0d5f;
+          }
         }
       }
     }
