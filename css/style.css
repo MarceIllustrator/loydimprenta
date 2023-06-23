@@ -105,7 +105,7 @@ main {
 }
 .cyv__principal .cyv__content h1 {
   margin-bottom: 50px;
-  font-size: 400%;
+  font-size: 250%;
   font-weight: bold;
 }
 
@@ -261,7 +261,7 @@ main {
 }
 .fotografia__principal .fotografia__content h1 {
   margin-bottom: 50px;
-  font-size: 400%;
+  font-size: 250%;
   font-weight: bold;
 }
 
@@ -311,7 +311,7 @@ main {
 }
 .imp__principal .imp__content h1 {
   margin-bottom: 50px;
-  font-size: 400%;
+  font-size: 250%;
   font-weight: bold;
 }
 
@@ -386,7 +386,7 @@ main {
   text-align: center;
 }
 .article_container_main h1 {
-  font-size: 300%;
+  font-size: 250%;
   font-weight: bold;
   text-align: center;
   padding-bottom: 20px;
@@ -491,9 +491,6 @@ main {
     width: 100%;
   }
   .article_container_main {
-    width: 100%;
-  }
-  .article_container_main h1 {
     width: 100%;
   }
   .article_container_ph {
