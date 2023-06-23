@@ -4,7 +4,7 @@
   @media only screen and (max-width: 576px){
     /* esilos generales */
     main {
-      width: 100%;
+      width: $ancho_total;
     }
     .menu {
       flex-direction: column;
@@ -23,31 +23,35 @@
     .article_container {
       flex-direction: column;
       text-align: center;
-      width: 100%;
+      width: $ancho_total;
     
       &_main {
-        width: 100%;
+        width: $ancho_total;
       }
       &_ph {
-        width: 100%;
+        width: $ancho_total;
       }
     }
     .article_historia {
       flex-direction: column-reverse;
       text-align: center;
-      width: 100%;
+      width: $ancho_total;
       
       .imagenes_h {
-        width: 100%;
+        width: $ancho_total;
       }
       &_content {
-        width: 100%;
+        width: $ancho_total;
         text-align: center;
+
+        h2 {
+          text-align: center;
+        }
       }
     }
     .cards-container {
       flex-direction: column;
-      width: 100%;
+      width: $ancho_total;
       align-items: center;
     
       .card {
@@ -62,47 +66,47 @@
     }
   /* fotografia */
     .fotografia__principal {
-      width: 100%;
+      width: $ancho_total;
       
       img {
       height: 225px;
-      width: 100%;
+      width: $ancho_total;
       }
     }
     .cards__fotografia {
       display: flex;
       flex-direction: column;
-      width: 100%;
+      width: $ancho_total;
     
       .card__fotografia__body {
         padding: 60px 40px 30px 40px;
-        width: 100%;
+        width: $ancho_total;
       }
     }
     /* calcosyvinilos */
     .cyv__principal {
-      width: 100%;
+      width: $ancho_total;
       
       img {
       height: 225px;
-      width: 100%;
+      width: $ancho_total;
       }
     }
 
     .cyv__calco {
       flex-direction: column;
-      width: 100%;
+      width: $ancho_total;
     
       .cyv__product__calco {
-        width: 100%;
+        width: $ancho_total;
         text-align: center;
       }
 
       .calco_img {
-        width: 100%;
+        width: $ancho_total;
 
         img {
-          width: 100%;
+          width: $ancho_total;
           object-fit: cover;
           height: 370px;
         }
@@ -111,20 +115,20 @@
 
     .cyv__vinilo {
       flex-direction: column-reverse;
-      width: 100%;
+      width: $ancho_total;
     
       .vinilo_img {
-        width: 100%;
+        width: $ancho_total;
 
         img {
-          width: 100%;
+          width: $ancho_total;
           object-fit: cover;
           height: 370px;
         }
       }
 
       .cyv__product__vinilo {
-        width: 100%;
+        width: $ancho_total;
         text-align: center;
       }
     }
@@ -132,27 +136,27 @@
   /* impresión */
 
     .imp__principal {
-      width: 100%;
+      width: $ancho_total;
       
       img {
       height: 225px;
-      width: 100%;
+      width: $ancho_total;
       }
     }
 
     .cards__imp {
-      width: 100%;
+      width: $ancho_total;
 
       .card__imp__body {
-        width: 100%;
+        width: $ancho_total;
       }
     }
 
     .cards__imp2 {
-      width: 100%;
+      width: $ancho_total;
       
       .card__imp2__body {
-        width: 100%;
+        width: $ancho_total;
 
         img {
           width: 70%;
@@ -161,6 +165,6 @@
     }
   /* contacto */
     .Campo {
-      width: 100%;
+      width: $ancho_total;
     }
   }

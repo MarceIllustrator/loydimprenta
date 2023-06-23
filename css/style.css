@@ -8,7 +8,7 @@
   box-sizing: border-box;
 }
 
-/* VARS */
+/* MIXINS */ /* VARS */
 /* IMPORTS COMPONENTS */
 /* FOOTER */
 footer {
@@ -74,6 +74,7 @@ header {
 .cyv__principal {
   background-color: #ffffff;
   width: 100%;
+  display: inline-block;
 }
 .cyv__principal img {
   width: 100%;
@@ -163,23 +164,24 @@ header {
 }
 .contacto__principal .container_form {
   display: flex;
-  width: 100%;
+  width: 90%;
+  justify-content: center;
 }
 .contacto__principal .container_form .row {
   justify-content: center;
   width: 100%;
 }
 .contacto__principal .container_form .row .col-12 {
-  width: 80%;
+  width: 100%;
 }
 .contacto__principal .container_form .row .col-12 .form-label {
   padding-top: 20px;
 }
 .contacto__principal .container_form .row .col-6 {
-  width: 40%;
+  width: 50%;
 }
 .contacto__principal .container_form .row .col-3 {
-  width: 20%;
+  width: 25%;
 }
 .contacto__principal .container_form .row .form-check {
   padding-top: 20px;
@@ -263,6 +265,7 @@ header {
 .imp__principal {
   background-color: #ffffff;
   width: 100%;
+  display: inline-block;
 }
 .imp__principal img {
   width: 100%;
@@ -382,7 +385,7 @@ header {
 .article_historia_content h2 {
   font-size: 200%;
   font-weight: bold;
-  text-align: center;
+  text-align: left;
 }
 
 .cards__title {
@@ -460,6 +463,9 @@ header {
   }
   .article_historia_content {
     width: 100%;
+    text-align: center;
+  }
+  .article_historia_content h2 {
     text-align: center;
   }
   .cards-container {

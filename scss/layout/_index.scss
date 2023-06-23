@@ -4,7 +4,7 @@
 
   .article_container {
     display: flex;
-    width: 100%;
+    width: $ancho_total;
   
     &_main {
       width: 50%;
@@ -23,7 +23,7 @@
       padding: 50px;
     
       img {
-        width: 100%;
+        width: $ancho_total;
         height: 354px;
         object-fit: cover;
       }
@@ -32,7 +32,7 @@
 
   .article_historia {
     display: flex;
-    width: 100%;
+    width: $ancho_total;
   
     .imagenes_h {
       display: flex;
@@ -54,7 +54,7 @@
       h2 {
         font-size: 200%;
         font-weight: bold;
-        text-align: center;
+        text-align: left;
       }
     }
   }
@@ -74,7 +74,7 @@
     display: flex;
     justify-content: space-around;
     background-color: $main_color;
-    width: 100%;
+    width: $ancho_total;
     padding: 20px 20px 50px 20px;
 
     .card {

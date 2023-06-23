@@ -1,0 +1,25 @@
+/* MIXINS */
+
+@mixin pages_principal {
+    background-color: #ffffff;
+    width: $ancho_total;
+    display: inline-block;
+}
+
+@mixin pages_principal_h1 {
+    margin-bottom: 50px;
+    font-size: 400%;
+    font-weight: bold;
+}
+
+@mixin pages_principal_img {
+    width: $ancho_total;
+    height: 400px;
+    object-fit: cover;
+}
+
+@mixin cards_imp_body ($padding, $widht, $text-align) {
+    padding: $padding;
+    width: $widht;
+    text-align: $text-align;
+}
