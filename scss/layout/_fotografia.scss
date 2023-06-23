@@ -2,6 +2,10 @@
 
   /* MAIN_FOTOGRAFIA */
 
+  main {
+    overflow: $overflow;
+  }
+
   .fotografia__principal {
     @include pages_principal;
 

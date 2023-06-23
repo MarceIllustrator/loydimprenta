@@ -2,6 +2,10 @@
 
   /* MAIN_CALCOSYVINILOS */
 
+  main {
+    overflow: $overflow;
+  }
+
   .cyv__principal {
     @include pages_principal;
 

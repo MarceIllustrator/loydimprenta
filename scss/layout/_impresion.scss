@@ -2,6 +2,10 @@
 
   /* MAIN_IMPRESION */
 
+  main {
+    overflow: $overflow;
+  }
+
   .imp__principal {
     @include pages_principal;
   

@@ -83,6 +83,10 @@ header {
 /* IMPORTS LAYOUT */
 /* CALCOSYVINILOS.HTML */
 /* MAIN_CALCOSYVINILOS */
+main {
+  overflow: hidden;
+}
+
 .cyv__principal {
   background-color: #ffffff;
   width: 100%;
@@ -152,6 +156,10 @@ header {
 
 /* CONTACTO.HTML */
 /* MAIN_CONTACTO */
+main {
+  overflow: hidden;
+}
+
 .contacto__principal {
   width: 100%;
   display: flex;
@@ -231,6 +239,10 @@ header {
 
 /* FOTOGRAFIA.HTML */
 /* MAIN_FOTOGRAFIA */
+main {
+  overflow: hidden;
+}
+
 .fotografia__principal {
   background-color: #ffffff;
   width: 100%;
@@ -277,6 +289,10 @@ header {
 
 /* IMPRESION.HTML */
 /* MAIN_IMPRESION */
+main {
+  overflow: hidden;
+}
+
 .imp__principal {
   background-color: #ffffff;
   width: 100%;
@@ -356,6 +372,10 @@ header {
 
 /* INDEX.HTML */
 /* MAIN_INDEX */
+main {
+  overflow: hidden;
+}
+
 .article_container {
   display: flex;
   width: 100%;

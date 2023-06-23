@@ -2,6 +2,10 @@
 
   /* MAIN_CONTACTO */
 
+  main {
+    overflow: $overflow;
+  }
+
   .contacto__principal {
     width: $ancho_total;
     display: flex;

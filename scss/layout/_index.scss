@@ -1,7 +1,11 @@
 /* INDEX.HTML */
 
   /* MAIN_INDEX */
-
+  
+  main {
+    overflow: $overflow;
+  }
+  
   .article_container {
     display: flex;
     width: $ancho_total;
